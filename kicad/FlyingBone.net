@@ -1,0 +1,426 @@
+# EESchema Netlist Version 1.1 created  Wed 09 Oct 2013 07:39:57 PM EDT
+(
+ ( /4EB0F8F5/5255DB51 LGA 3x5x1 14L
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 ? )
+ )
+ ( /4EB0F8E9/4EB9CBCB SM0805 C1 u1
+  ( 1 /P9/VDD_3V3EXP )
+  ( 2 GND )
+ )
+ ( /4EB0F8F5/5255DA27 SM0805 C2 C
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /4EB0F8F5/5255DA2D SM0805 C3 C
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /4EB0F8F5/5255DA31 SM0805 C4 C
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /4EB0F8F5/5255DA34 SM0805 C5 C
+  ( 1 ? )
+  ( 2 ? )
+ )
+ ( /4EB0F8E9/4EB9CB6C PIN_ARRAY_2X2 J1 addr
+  ( 1 /P9/A1 )
+  ( 2 GND )
+  ( 3 /P9/A0 )
+  ( 4 GND )
+ )
+ ( /4EC334FF CC-BY-SA-LOGO-MIRROR LOGO1 CC-BY-SA
+ )
+ ( /4EB0F8F5/5255DA22 SIL-4 P1 CONN_4
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 ? )
+ )
+ ( /4EB0F8A6/4EB0F9FA pin_array_3x2 P2 Backl
+  ( 1 /Battery/Backlight/BL_ISET2 )
+  ( 2 /Battery/Backlight/BL_ISET1 )
+  ( 3 /Battery/Backlight/BL_OUT )
+  ( 4 /Battery/Backlight/BL_IN )
+  ( 5 /Battery/Backlight/BL_SINK )
+  ( 6 /Battery/Backlight/BL_SINK2 )
+ )
+ ( /4EB0F8C5/4EB103AB PIN_ARRAY_23X2 P3 CONN_23X2
+  ( 1 /P8/DGND_8 )
+  ( 2 /P8/DGND_8 )
+  ( 3 /P8/GPIO1_6 )
+  ( 4 /P8/GPIO1_7 )
+  ( 5 /P8/GPIO1_2 )
+  ( 6 /P8/GPIO1_3 )
+  ( 7 /P8/TIMER4 )
+  ( 8 /P8/TIMER7 )
+  ( 9 /P8/TIMER5 )
+  ( 10 /P8/TIMER6 )
+  ( 11 /P8/GPIO1_13 )
+  ( 12 /P8/GPIO1_12 )
+  ( 13 /P8/EHRPWM2B )
+  ( 14 /P8/GPIO0_26 )
+  ( 15 /P8/GPIO1_15 )
+  ( 16 /P8/GPIO1_14 )
+  ( 17 /P8/GPIO0_27 )
+  ( 18 /P8/GPIO2_1 )
+  ( 19 /P8/EHRPWM2A )
+  ( 20 /P8/GPIO1_31 )
+  ( 21 /P8/GPIO1_30 )
+  ( 22 /P8/GPIO1_5 )
+  ( 23 /P8/GPIO1_4 )
+  ( 24 /P8/GPIO1_1 )
+  ( 25 /P8/GPIO1_0 )
+  ( 26 /P8/GPIO1_29 )
+  ( 27 /P8/GPIO2_22 )
+  ( 28 /P8/GPIO2_24 )
+  ( 29 /P8/GPIO2_23 )
+  ( 30 /P8/GPIO2_25 )
+  ( 31 /P8/UART5_CTSN )
+  ( 32 /P8/UART5_RTSN )
+  ( 33 /P8/UART4_RTSN )
+  ( 34 /P8/UART3_RTSN )
+  ( 35 /P8/UART4_CTSN )
+  ( 36 /P8/UART3_CTSN )
+  ( 37 /P8/UART5_TXD )
+  ( 38 /P8/UART5_RXD )
+  ( 39 /P8/GPIO_12 )
+  ( 40 /P8/GPIO2_13 )
+  ( 41 /P8/GPIO2_10 )
+  ( 42 /P8/GPIO2_11 )
+  ( 43 /P8/GPIO2_8 )
+  ( 44 /P8/GPIO2_9 )
+  ( 45 /P8/GPIO2_6 )
+  ( 46 /P8/GPIO2_7 )
+ )
+ ( /4EB0F8E9/4EB1E384 PIN_ARRAY_23X2 P4 CONN_23X2
+  ( 1 GND )
+  ( 2 GND )
+  ( 3 /P9/VDD_3V3EXP )
+  ( 4 /P9/VDD_3V3EXP )
+  ( 5 /P9/VDD_5V )
+  ( 6 /P9/VDD_5V )
+  ( 7 /P9/SYS_5V )
+  ( 8 /P9/SYS_5V )
+  ( 9 /P9/PWR_BUT )
+  ( 10 /P9/SYS_RESETn )
+  ( 11 /P9/UART4_RXD )
+  ( 12 /P9/GPIO1_28 )
+  ( 13 /P9/UART4_TXD )
+  ( 14 /P9/EHRPWM1A )
+  ( 15 /P9/GPIO1_16 )
+  ( 16 /P9/EHRPWM1B )
+  ( 17 /P9/I2C1_SCL )
+  ( 18 /P9/I2C1_SDA )
+  ( 19 /P9/I2C2_SCL )
+  ( 20 /P9/I2C2_SDA )
+  ( 21 /P9/UART2_TXD )
+  ( 22 /P9/UART2_RXD )
+  ( 23 /P9/GPIO1_17 )
+  ( 24 /P9/UART1_TXD )
+  ( 25 /P9/GPIO3_21 )
+  ( 26 /P9/UART1_RXD )
+  ( 27 /P9/GPIO3_19 )
+  ( 28 /P9/SPI1_CS0 )
+  ( 29 /P9/SPI1_D0 )
+  ( 30 /P9/SPI1_D1 )
+  ( 31 /P9/SPI1_SCLK )
+  ( 32 /P9/VDD_ADC )
+  ( 33 /P9/AIN4 )
+  ( 34 /P9/GNDA_ADC )
+  ( 35 /P9/AIN6 )
+  ( 36 /P9/AIN5 )
+  ( 37 /P9/AIN2 )
+  ( 38 /P9/AIN3 )
+  ( 39 /P9/AIN0 )
+  ( 40 /P9/AIN1 )
+  ( 41 /P9/CLKOUT2 )
+  ( 42 /P9/GPIO0_7 )
+  ( 43 /P9/DGND_9_2 )
+  ( 44 /P9/DGND_9_2 )
+  ( 45 /P9/DGND_9_2 )
+  ( 46 /P9/DGND_9_2 )
+ )
+ ( /4EB0F8E9/4EB9CAC9 SM0805 R1 1k5
+  ( 1 /P9/VDD_3V3EXP )
+  ( 2 /P9/I2C2_SDA )
+ )
+ ( /4EB0F8E9/4EB9CACE SM0805 R2 1k5
+  ( 1 /P9/VDD_3V3EXP )
+  ( 2 /P9/I2C2_SCL )
+ )
+ ( /4EB0F8E9/4EB9CB33 SM0805 R3 4k75
+  ( 1 /P9/VDD_3V3EXP )
+  ( 2 /P9/A2 )
+ )
+ ( /4EB0F8E9/4EB9CB39 SM0805 R4 4k75
+  ( 1 /P9/VDD_3V3EXP )
+  ( 2 /P9/A1 )
+ )
+ ( /4EB0F8E9/4EB9CB40 SM0805 R5 4k75
+  ( 1 /P9/VDD_3V3EXP )
+  ( 2 /P9/A0 )
+ )
+ ( /4EB0F8E9/4EB1E2E1 BEAGLEBONE U1 BEAGLEBONE
+  ( A1 ? )
+  ( A2 ? )
+  ( A3 ? )
+  ( A4 ? )
+  ( A5 /Battery/Backlight/BL_ISET2 )
+  ( A6 /Battery/Backlight/BL_ISET1 )
+  ( A7 /Battery/Backlight/BL_OUT )
+  ( A8 /Battery/Backlight/BL_IN )
+  ( A9 /Battery/Backlight/BL_SINK )
+  ( A10 /Battery/Backlight/BL_SINK2 )
+  ( B1 /P8/DGND_8 )
+  ( B2 /P8/DGND_8 )
+  ( B3 /P8/GPIO1_6 )
+  ( B4 /P8/GPIO1_7 )
+  ( B5 /P8/GPIO1_2 )
+  ( B6 /P8/GPIO1_3 )
+  ( B7 /P8/TIMER4 )
+  ( B8 /P8/TIMER7 )
+  ( B9 /P8/TIMER5 )
+  ( B10 /P8/TIMER6 )
+  ( B11 /P8/GPIO1_13 )
+  ( B12 /P8/GPIO1_12 )
+  ( B13 /P8/EHRPWM2B )
+  ( B14 /P8/GPIO0_26 )
+  ( B15 /P8/GPIO1_15 )
+  ( B16 /P8/GPIO1_14 )
+  ( B17 /P8/GPIO0_27 )
+  ( B18 /P8/GPIO2_1 )
+  ( B19 /P8/EHRPWM2A )
+  ( B20 /P8/GPIO1_31 )
+  ( B21 /P8/GPIO1_30 )
+  ( B22 /P8/GPIO1_5 )
+  ( B23 /P8/GPIO1_4 )
+  ( B24 /P8/GPIO1_1 )
+  ( B25 /P8/GPIO1_0 )
+  ( B26 /P8/GPIO1_29 )
+  ( B27 /P8/GPIO2_22 )
+  ( B28 /P8/GPIO2_24 )
+  ( B29 /P8/GPIO2_23 )
+  ( B30 /P8/GPIO2_25 )
+  ( B31 /P8/UART5_CTSN )
+  ( B32 /P8/UART5_RTSN )
+  ( B33 /P8/UART4_RTSN )
+  ( B34 /P8/UART3_RTSN )
+  ( B35 /P8/UART4_CTSN )
+  ( B36 /P8/UART3_CTSN )
+  ( B37 /P8/UART5_TXD )
+  ( B38 /P8/UART5_RXD )
+  ( B39 /P8/GPIO_12 )
+  ( B40 /P8/GPIO2_13 )
+  ( B41 /P8/GPIO2_10 )
+  ( B42 /P8/GPIO2_11 )
+  ( B43 /P8/GPIO2_8 )
+  ( B44 /P8/GPIO2_9 )
+  ( B45 /P8/GPIO2_6 )
+  ( B46 /P8/GPIO2_7 )
+  ( C1 GND )
+  ( C2 GND )
+  ( C3 /P9/VDD_3V3EXP )
+  ( C4 /P9/VDD_3V3EXP )
+  ( C5 /P9/VDD_5V )
+  ( C6 /P9/VDD_5V )
+  ( C7 /P9/SYS_5V )
+  ( C8 /P9/SYS_5V )
+  ( C9 /P9/PWR_BUT )
+  ( C10 /P9/SYS_RESETn )
+  ( C11 /P9/UART4_RXD )
+  ( C12 /P9/GPIO1_28 )
+  ( C13 /P9/UART4_TXD )
+  ( C14 /P9/EHRPWM1A )
+  ( C15 /P9/GPIO1_16 )
+  ( C16 /P9/EHRPWM1B )
+  ( C17 /P9/I2C1_SCL )
+  ( C18 /P9/I2C1_SDA )
+  ( C19 /P9/I2C2_SCL )
+  ( C20 /P9/I2C2_SDA )
+  ( C21 /P9/UART2_TXD )
+  ( C22 /P9/UART2_RXD )
+  ( C23 /P9/GPIO1_17 )
+  ( C24 /P9/UART1_TXD )
+  ( C25 /P9/GPIO3_21 )
+  ( C26 /P9/UART1_RXD )
+  ( C27 /P9/GPIO3_19 )
+  ( C28 /P9/SPI1_CS0 )
+  ( C29 /P9/SPI1_D0 )
+  ( C30 /P9/SPI1_D1 )
+  ( C31 /P9/SPI1_SCLK )
+  ( C32 /P9/VDD_ADC )
+  ( C33 /P9/AIN4 )
+  ( C34 /P9/GNDA_ADC )
+  ( C35 /P9/AIN6 )
+  ( C36 /P9/AIN5 )
+  ( C37 /P9/AIN2 )
+  ( C38 /P9/AIN3 )
+  ( C39 /P9/AIN0 )
+  ( C40 /P9/AIN1 )
+  ( C41 /P9/CLKOUT2 )
+  ( C42 /P9/GPIO0_7 )
+  ( C43 /P9/DGND_9_2 )
+  ( C44 /P9/DGND_9_2 )
+  ( C45 /P9/DGND_9_2 )
+  ( C46 /P9/DGND_9_2 )
+ )
+ ( /4EB0F8E9/4EB9C954 SO8E U2 CAT24C256
+  ( 1 /P9/A0 )
+  ( 2 /P9/A1 )
+  ( 3 /P9/A2 )
+  ( 4 GND )
+  ( 5 /P9/I2C2_SDA )
+  ( 6 /P9/I2C2_SCL )
+  ( 7 ? )
+  ( 8 /P9/VDD_3V3EXP )
+ )
+ ( /4EB0F8F5/5255D9BA P8X32 U3 P8X32A-LQFP
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 VSS )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 VDD )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 ? )
+  ( 16 ? )
+  ( 17 VSS )
+  ( 18 VDD )
+  ( 19 ? )
+  ( 20 ? )
+  ( 21 ? )
+  ( 22 ? )
+  ( 23 ? )
+  ( 24 ? )
+  ( 25 ? )
+  ( 26 ? )
+  ( 27 VSS )
+  ( 28 ? )
+  ( 29 ? )
+  ( 30 VDD )
+  ( 31 ? )
+  ( 32 ? )
+  ( 33 ? )
+  ( 34 ? )
+  ( 35 ? )
+  ( 36 ? )
+  ( 37 ? )
+  ( 38 ? )
+  ( 39 VSS )
+  ( 40 VDD )
+  ( 41 ? )
+  ( 42 ? )
+  ( 43 ? )
+  ( 44 ? )
+ )
+ ( /4EB0F8F5/5255DAD8 SO8E U5 CAT24C256
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+ )
+ ( /4EB0F8F5/5255DA7D HC-49V X1 CRYSTAL
+  ( 1 ? )
+  ( 2 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component U2
+ soic-8
+ tssop-8
+ pdip-8
+ tdfn-8
+ udfn-8
+ msop-8
+$endlist
+$component U5
+ soic-8
+ tssop-8
+ pdip-8
+ tdfn-8
+ udfn-8
+ msop-8
+$endlist
+$endfootprintlist
+}

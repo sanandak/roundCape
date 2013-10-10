@@ -1,0 +1,157 @@
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Wed 09 Oct 2013 07:39:57 PM EDT
+
+BeginCmp
+TimeStamp = /4EB0F8F5/5255DB51;
+Reference = 3x5x1;
+ValeurCmp = 14L;
+IdModule  = LGA;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB0F8E9/4EB9CBCB;
+Reference = C1;
+ValeurCmp = u1;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB0F8F5/5255DA27;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB0F8F5/5255DA2D;
+Reference = C3;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB0F8F5/5255DA31;
+Reference = C4;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB0F8F5/5255DA34;
+Reference = C5;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB0F8E9/4EB9CB6C;
+Reference = J1;
+ValeurCmp = addr;
+IdModule  = PIN_ARRAY_2X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EC334FF;
+Reference = LOGO1;
+ValeurCmp = CC-BY-SA;
+IdModule  = CC-BY-SA-LOGO-MIRROR;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB0F8F5/5255DA22;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB0F8A6/4EB0F9FA;
+Reference = P2;
+ValeurCmp = Backl;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB0F8C5/4EB103AB;
+Reference = P3;
+ValeurCmp = CONN_23X2;
+IdModule  = PIN_ARRAY_23X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB0F8E9/4EB1E384;
+Reference = P4;
+ValeurCmp = CONN_23X2;
+IdModule  = PIN_ARRAY_23X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB0F8E9/4EB9CAC9;
+Reference = R1;
+ValeurCmp = 1k5;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB0F8E9/4EB9CACE;
+Reference = R2;
+ValeurCmp = 1k5;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB0F8E9/4EB9CB33;
+Reference = R3;
+ValeurCmp = 4k75;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB0F8E9/4EB9CB39;
+Reference = R4;
+ValeurCmp = 4k75;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB0F8E9/4EB9CB40;
+Reference = R5;
+ValeurCmp = 4k75;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB0F8E9/4EB1E2E1;
+Reference = U1;
+ValeurCmp = BEAGLEBONE;
+IdModule  = BEAGLEBONE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB0F8E9/4EB9C954;
+Reference = U2;
+ValeurCmp = CAT24C256;
+IdModule  = SO8E;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB0F8F5/5255D9BA;
+Reference = U3;
+ValeurCmp = P8X32A-LQFP;
+IdModule  = P8X32;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB0F8F5/5255DAD8;
+Reference = U5;
+ValeurCmp = CAT24C256;
+IdModule  = SO8E;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB0F8F5/5255DA7D;
+Reference = X1;
+ValeurCmp = CRYSTAL;
+IdModule  = HC-49V;
+EndCmp
+
+EndListe
