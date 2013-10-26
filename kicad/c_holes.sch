@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 09 Oct 2013 04:26:28 PM EDT
+EESchema Schematic File Version 2  date Thu 24 Oct 2013 03:20:39 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,6 +31,11 @@ LIBS:contrib
 LIBS:valves
 LIBS:FlyingBone-cache
 LIBS:beaglebone
+LIBS:p8x32a-lqfp
+LIBS:IHE
+LIBS:dallas-rtc
+LIBS:freescale-accelerometer
+LIBS:SparkFun
 LIBS:FlyingBone-cache
 EELAYER 25  0
 EELAYER END
@@ -38,7 +43,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 2 5
 Title "FlyingBone - Proto board for BeagleBone"
-Date "9 oct 2013"
+Date "24 oct 2013"
 Rev "0.3"
 Comp "Jacek Radzikowski <jacek.radzikowski@gmail.com>"
 Comment1 "https://github.com/piranha32/FlyingBone"
@@ -46,4 +51,303 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 2550 6150
+Wire Wire Line
+	2550 5800 2550 6250
+Wire Wire Line
+	2550 6250 3350 6250
+Wire Wire Line
+	2600 6650 2600 6050
+Wire Wire Line
+	2600 6050 3350 6050
+Wire Wire Line
+	9500 3750 9500 4100
+Wire Wire Line
+	5600 4850 5450 4850
+Wire Wire Line
+	5450 4850 5450 5100
+Wire Wire Line
+	7900 6650 7900 6300
+Wire Wire Line
+	7900 6300 8250 6300
+Wire Wire Line
+	10300 5500 10400 5500
+Connection ~ 9300 5600
+Wire Wire Line
+	9800 5950 9800 5850
+Wire Wire Line
+	9300 5200 9300 5850
+Connection ~ 9300 5300
+Wire Wire Line
+	10300 5200 10650 5200
+Wire Wire Line
+	10300 5300 10750 5300
+Wire Wire Line
+	10750 5300 10750 6300
+Wire Wire Line
+	10750 6300 8850 6300
+Wire Wire Line
+	8850 6300 8850 5500
+Wire Wire Line
+	8850 5500 8000 5500
+Connection ~ 3850 2450
+Connection ~ 3850 2850
+Wire Wire Line
+	4150 2850 3300 2850
+Wire Wire Line
+	3300 2850 3300 3050
+Wire Wire Line
+	4750 4150 4750 4200
+Wire Wire Line
+	4750 4200 5600 4200
+Wire Wire Line
+	5600 3500 4750 3500
+Wire Wire Line
+	4750 3500 4750 3550
+Wire Wire Line
+	3300 2250 3300 2450
+Connection ~ 3600 2850
+Wire Wire Line
+	3300 2450 4150 2450
+Connection ~ 3600 2450
+Wire Wire Line
+	10650 5200 10650 6200
+Wire Wire Line
+	10650 6200 8950 6200
+Wire Wire Line
+	8950 6200 8950 5400
+Wire Wire Line
+	8950 5400 8000 5400
+Connection ~ 9300 5400
+Wire Wire Line
+	10300 5600 10300 5850
+Wire Wire Line
+	10300 5850 9300 5850
+Connection ~ 9800 5850
+Wire Wire Line
+	8000 5600 8150 5600
+Wire Wire Line
+	8150 5600 8150 6500
+Wire Wire Line
+	8150 6500 8250 6500
+Wire Wire Line
+	8250 6200 5200 6200
+Wire Wire Line
+	5200 6200 5200 4550
+Wire Wire Line
+	5200 4550 5600 4550
+Wire Wire Line
+	8000 5700 8100 5700
+Wire Wire Line
+	8100 5700 8100 6400
+Wire Wire Line
+	8100 6400 8250 6400
+Wire Wire Line
+	10400 5500 10400 4800
+Wire Wire Line
+	9500 2000 9500 1600
+Wire Wire Line
+	2550 6150 3350 6150
+$Comp
+L VDD #PWR1
+U 1 1 526967C5
+P 2550 5800
+F 0 "#PWR1" H 2550 5900 30  0001 C CNN
+F 1 "VDD" H 2550 5910 30  0000 C CNN
+	1    2550 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR2
+U 1 1 526967BF
+P 2600 6650
+F 0 "#PWR2" H 2600 6650 30  0001 C CNN
+F 1 "VSS" H 2600 6580 30  0000 C CNN
+	1    2600 6650
+	1    0    0    -1  
+$EndComp
+Text Label 8000 4200 0    60   ~ 0
+PPSGPS
+Text Label 8000 4300 0    60   ~ 0
+TXDGPS
+Text Label 8000 4400 0    60   ~ 0
+RXDGPS
+Text Label 3350 6350 2    60   ~ 0
+PPSGPS
+Text Label 3350 5950 2    60   ~ 0
+TXDGPS
+Text Label 3350 5850 2    60   ~ 0
+RXDGPS
+$Comp
+L U501-GPS U6
+U 1 1 5269670D
+P 2950 5700
+F 0 "U6" H 3700 5650 60  0000 C CNN
+F 1 "U501-GPS" H 3850 4900 60  0000 C CNN
+	1    2950 5700
+	1    0    0    -1  
+$EndComp
+Text Label 10050 2800 0    60   ~ 0
+SDAACC
+Text Label 10050 2650 0    60   ~ 0
+SCLACC
+Text Label 8000 3700 0    60   ~ 0
+SDAACC
+Text Label 8000 3600 0    60   ~ 0
+SCLACC
+$Comp
+L VSS #PWR8
+U 1 1 52688077
+P 9500 4100
+F 0 "#PWR8" H 9500 4100 30  0001 C CNN
+F 1 "VSS" H 9500 4030 30  0000 C CNN
+	1    9500 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD #PWR7
+U 1 1 52688073
+P 9500 1600
+F 0 "#PWR7" H 9500 1700 30  0001 C CNN
+F 1 "VDD" H 9500 1710 30  0000 C CNN
+	1    9500 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR5
+U 1 1 5256EFEC
+P 5450 5100
+F 0 "#PWR5" H 5450 5100 30  0001 C CNN
+F 1 "VSS" H 5450 5030 30  0000 C CNN
+	1    5450 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR6
+U 1 1 5256EF52
+P 7900 6650
+F 0 "#PWR6" H 7900 6650 30  0001 C CNN
+F 1 "VSS" H 7900 6580 30  0000 C CNN
+	1    7900 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD #PWR10
+U 1 1 5256EE85
+P 10400 4800
+F 0 "#PWR10" H 10400 4900 30  0001 C CNN
+F 1 "VDD" H 10400 4910 30  0000 C CNN
+	1    10400 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR9
+U 1 1 5256EE7B
+P 9800 5950
+F 0 "#PWR9" H 9800 5950 30  0001 C CNN
+F 1 "VSS" H 9800 5880 30  0000 C CNN
+	1    9800 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LSM303DLHC U4
+U 1 1 5255DB51
+P 9500 2900
+F 0 "U4" H 10000 2800 60  0000 C CNN
+F 1 "LSM303DLHC" H 9500 2850 60  0000 C CNN
+F 2 "~" H 9500 2900 60  0000 C CNN
+F 3 "~" H 9500 2900 60  0000 C CNN
+	1    9500 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L CAT24C256 U5
+U 1 1 5255DAD8
+P 9800 5400
+F 0 "U5" H 9650 5750 60  0000 C CNN
+F 1 "CAT24C256" H 9850 5050 60  0000 C CNN
+	1    9800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CRYSTAL X1
+U 1 1 5255DA7D
+P 4750 3850
+F 0 "X1" H 4750 4000 60  0000 C CNN
+F 1 "CRYSTAL" H 4750 3700 60  0000 C CNN
+	1    4750 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L C C5
+U 1 1 5255DA34
+P 4150 2650
+F 0 "C5" H 4200 2750 50  0000 L CNN
+F 1 "C" H 4200 2550 50  0000 L CNN
+	1    4150 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 5255DA31
+P 3850 2650
+F 0 "C4" H 3900 2750 50  0000 L CNN
+F 1 "C" H 3900 2550 50  0000 L CNN
+	1    3850 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 5255DA2D
+P 3600 2650
+F 0 "C3" H 3650 2750 50  0000 L CNN
+F 1 "C" H 3650 2550 50  0000 L CNN
+	1    3600 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 5255DA27
+P 3300 2650
+F 0 "C2" H 3350 2750 50  0000 L CNN
+F 1 "C" H 3350 2550 50  0000 L CNN
+	1    3300 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_4 P1
+U 1 1 5255DA22
+P 8600 6350
+F 0 "P1" V 8550 6350 50  0000 C CNN
+F 1 "CONN_4" V 8650 6350 50  0000 C CNN
+	1    8600 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD #PWR3
+U 1 1 5255D9F3
+P 3300 2250
+F 0 "#PWR3" H 3300 2350 30  0001 C CNN
+F 1 "VDD" H 3300 2360 30  0000 C CNN
+	1    3300 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR4
+U 1 1 5255D9EB
+P 3300 3050
+F 0 "#PWR4" H 3300 3050 30  0001 C CNN
+F 1 "VSS" H 3300 2980 30  0000 C CNN
+	1    3300 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L P8X32A-LQFP U3
+U 1 1 5255D9BA
+P 6800 4050
+F 0 "U3" H 6800 6000 60  0000 C CNN
+F 1 "P8X32A-LQFP" H 6800 2100 60  0000 C CNN
+	1    6800 4050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

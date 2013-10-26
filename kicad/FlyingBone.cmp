@@ -1,11 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Wed 09 Oct 2013 07:39:57 PM EDT
-
-BeginCmp
-TimeStamp = /4EB0F8F5/5255DB51;
-Reference = 3x5x1;
-ValeurCmp = 14L;
-IdModule  = LGA;
-EndCmp
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Thu 24 Oct 2013 05:16:11 PM EDT
 
 BeginCmp
 TimeStamp = /4EB0F8E9/4EB9CBCB;
@@ -141,10 +134,31 @@ IdModule  = P8X32;
 EndCmp
 
 BeginCmp
+TimeStamp = /4EB0F8F5/5255DB51;
+Reference = U4;
+ValeurCmp = LSM303DLHC;
+IdModule  = SparkFun-LGA14;
+EndCmp
+
+BeginCmp
 TimeStamp = /4EB0F8F5/5255DAD8;
 Reference = U5;
 ValeurCmp = CAT24C256;
 IdModule  = SO8E;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB0F8F5/5269670D;
+Reference = U6;
+ValeurCmp = U501-GPS;
+IdModule  = U-501-GPS;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EB0F8F5/52698DCE;
+Reference = U7;
+ValeurCmp = AD7193;
+IdModule  = SparkFun-TSSOP28;
 EndCmp
 
 BeginCmp

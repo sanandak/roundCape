@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 09 Oct 2013 04:26:28 PM EDT
+EESchema Schematic File Version 2  date Thu 24 Oct 2013 03:20:39 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,6 +31,11 @@ LIBS:contrib
 LIBS:valves
 LIBS:FlyingBone-cache
 LIBS:beaglebone
+LIBS:p8x32a-lqfp
+LIBS:IHE
+LIBS:dallas-rtc
+LIBS:freescale-accelerometer
+LIBS:SparkFun
 LIBS:FlyingBone-cache
 EELAYER 25  0
 EELAYER END
@@ -38,7 +43,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 5 5
 Title "FlyingBone - Proto board for BeagleBone"
-Date "9 oct 2013"
+Date "24 oct 2013"
 Rev "0.3"
 Comp "Jacek Radzikowski <jacek.radzikowski@gmail.com>"
 Comment1 "https://github.com/piranha32/FlyingBone"

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 09 Oct 2013 04:26:28 PM EDT
+EESchema Schematic File Version 2  date Thu 24 Oct 2013 03:20:39 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,6 +31,11 @@ LIBS:contrib
 LIBS:valves
 LIBS:FlyingBone-cache
 LIBS:beaglebone
+LIBS:p8x32a-lqfp
+LIBS:IHE
+LIBS:dallas-rtc
+LIBS:freescale-accelerometer
+LIBS:SparkFun
 LIBS:FlyingBone-cache
 EELAYER 25  0
 EELAYER END
@@ -38,7 +43,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 3 5
 Title "FlyingBone - Proto board for BeagleBone"
-Date "9 oct 2013"
+Date "24 oct 2013"
 Rev "0.3"
 Comp "Jacek Radzikowski <jacek.radzikowski@gmail.com>"
 Comment1 "https://github.com/piranha32/FlyingBone"
@@ -46,12 +51,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 3650 3750
+Wire Wire Line
+	3500 3750 3850 3750
+Wire Wire Line
+	3850 3750 3850 3900
 Wire Wire Line
 	4650 2550 1700 2550
 Wire Wire Line
-	3650 3900 3650 3750
-Wire Wire Line
-	3650 3750 3500 3750
+	3650 3750 3650 3900
 Wire Wire Line
 	3500 3450 4650 3450
 Wire Wire Line
@@ -306,12 +314,32 @@ Wire Wire Line
 	3500 3350 4650 3350
 Wire Wire Line
 	3500 3650 3650 3650
-Wire Wire Line
-	3650 3650 3650 2550
 Connection ~ 3650 2550
 Wire Wire Line
 	3950 2650 3950 2550
 Connection ~ 3950 2550
+Wire Wire Line
+	3650 3650 3650 1800
+Wire Wire Line
+	3650 1800 3450 1800
+$Comp
+L VSS #PWR15
+U 1 1 525F0099
+P 3850 3900
+F 0 "#PWR15" H 3850 3900 30  0001 C CNN
+F 1 "VSS" H 3850 3830 30  0000 C CNN
+	1    3850 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD #PWR13
+U 1 1 525F0073
+P 3450 1800
+F 0 "#PWR13" H 3450 1900 30  0001 C CNN
+F 1 "VDD" H 3450 1910 30  0000 C CNN
+	1    3450 1800
+	1    0    0    -1  
+$EndComp
 Text Label 2000 3250 0    60   ~ 0
 A0
 Text Label 2200 3250 0    60   ~ 0
@@ -319,19 +347,19 @@ A1
 Text Label 2400 3250 0    60   ~ 0
 A2
 $Comp
-L GND #PWR01
+L GND #PWR14
 U 1 1 4EB9CD38
 P 3650 3900
-F 0 "#PWR01" H 3650 3900 30  0001 C CNN
+F 0 "#PWR14" H 3650 3900 30  0001 C CNN
 F 1 "GND" H 3650 3830 30  0001 C CNN
 	1    3650 3900
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L GND #PWR11
 U 1 1 4EB9CBD3
 P 1700 3300
-F 0 "#PWR02" H 1700 3300 30  0001 C CNN
+F 0 "#PWR11" H 1700 3300 30  0001 C CNN
 F 1 "GND" H 1700 3230 30  0001 C CNN
 	1    1700 3300
 	1    0    0    -1  
@@ -347,10 +375,10 @@ F 2 "SM0805" H 1700 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L GND #PWR12
 U 1 1 4EB9CB8D
 P 2150 4800
-F 0 "#PWR03" H 2150 4800 30  0001 C CNN
+F 0 "#PWR12" H 2150 4800 30  0001 C CNN
 F 1 "GND" H 2150 4730 30  0001 C CNN
 	1    2150 4800
 	1    0    0    -1  
@@ -439,10 +467,10 @@ F 2 "SO8E" H 3000 3550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L GND #PWR16
 U 1 1 4EB48FA3
 P 9600 2200
-F 0 "#PWR04" H 9600 2200 30  0001 C CNN
+F 0 "#PWR16" H 9600 2200 30  0001 C CNN
 F 1 "GND" H 9600 2130 30  0001 C CNN
 	1    9600 2200
 	1    0    0    -1  
